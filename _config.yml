@@ -19,7 +19,7 @@ sidebar-avatar: img/nanocode.jpg        # use absolute URL, seeing it's used in 
 # SNS settings
 RSS: false
 # weibo_username:   qiubaiying
-zhihu_username:     Cheney
+zhihu_username:     https://www.zhihu.com/people/cheney-49-99/activities
 github_username:    Ceneses
 facebook_username:  ID Cloud
 jianshu_username:   2648ecf2283e
