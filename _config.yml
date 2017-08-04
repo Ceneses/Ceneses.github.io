@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: 恒成立的博客 | BY Blog
+title: HCY Blog
+SEOTitle: 恒成立的博客 | HCY Blog
 header-img: img/post-bg-desk.jpg
 email: 3166645502@qq.com
 description: "Every failure is leading towards success."
@@ -95,8 +95,8 @@ friends: [
         title: "WY",
         href: "http://zhengwuyang.com"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书·HCY",
+        href: "http://www.jianshu.com/users/2648ecf2283e/timeline"
     },{
         title: "Apple",
         href: "https://apple.com"
