@@ -98,10 +98,10 @@ friends: [
         title: "简书·HCY",
         href: "http://www.jianshu.com/users/2648ecf2283e/timeline"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "BaiDuAI",
+        href: "https://ai.baidu.com/"
     },{
         title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        href: "https://developer.google.com/"
     }
 ]
