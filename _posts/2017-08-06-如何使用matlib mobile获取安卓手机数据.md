@@ -10,7 +10,7 @@ tags:
     - matlab_mobile
     - Android
 ---
-
+> 本文转自[本人简书文章](http://www.jianshu.com/p/70375e605b56)
 # 下载APP
 >* 在google play商店下载Matlab Mobile
 >* 打开Matlab，在add on中下载Android Sensor Support from MATLAB
