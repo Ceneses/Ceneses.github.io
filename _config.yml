@@ -17,7 +17,7 @@ sidebar-avatar: https://ceneses.github.io/img/nanocode.jpg        # use absolute
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:   qiubaiying
 zhihu_username:     cheney-49-99
 github_username:    Ceneses
