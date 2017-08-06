@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: 3166645502@qq.com
 description: "Every failure is leading towards success."
 keyword: "HCY, HCY Blog, 成立的博客,恒成立 , 成立, Android, Linux, Windows"
-url: "http://chengyihan.github.io"          # your host, for absolute URL
+url: "http://ceneses.github.io"          # your host, for absolute URL
 baseurl: "https://ceneses.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Ceneses/Cheney" # you code repository
 
