@@ -1,5 +1,6 @@
 # HCY Blog
 >欢迎访问[恒成立的博客](https://Ceneses.github.io)！
+![NanoCode](https://github.com/Ceneses/Ceneses.github.io/blob/master/img/nanocode.jpg)
 ## 内容
 >* 数学定理
 >* 控制原理
