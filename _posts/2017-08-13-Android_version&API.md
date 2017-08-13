@@ -35,36 +35,7 @@ tags:
 + 一组应用可请求的权限，以及系统中包括的权限强制执行。
 + 每个后续版本的 Android 平台均可包括对其提供的 Android 应用框架 API 的更新。
 > 下表列出了各 Android 平台版本支持的 API 级别。
-
-|平台版本|API 级别| VERSION_CODE |备注|
-|:-------|:-------|:-------|:-------|
-|Android 7.0|	24	|N	|平台亮点|
-|Android 6.0|	23|	M	|平台亮点|
-|Android 5.1|	22	|LOLLIPOP_MR1	|平台亮点|
-|Android 5.0	|21|	LOLLIPOP|
-|Android 4.4W|	20	|KITKAT_WATCH	|仅限 KitKat for Wearables|
-|Android 4.4	|19	|KITKAT	|平台亮点|
-|Android 4.3|	18|	JELLY_BEAN_MR2|	平台亮点|
-|Android 4.2、4.2.2	|17	|JELLY_BEAN_MR1	|平台亮点|
-|Android 4.1、4.1.1	|16|	JELLY_BEAN|	平台亮点|
-|Android 4.0.3、4.0.4	|15|	ICE_CREAM_SANDWICH_MR1	|平台亮点|
-|Android 4.0、4.0.1、4.0.2	|14	|ICE_CREAM_SANDWICH|
-|Android 3.2	|13	|HONEYCOMB_MR2	|
-|Android 3.1.x	|12|	HONEYCOMB_MR1	|平台亮点|
-|Android 3.0.x	|11	|HONEYCOMB	|平台亮点|
-|Android 2.3.4|
-|Android 2.3.3	|10	|GINGERBREAD_MR1	|平台亮点|
-|Android 2.3.2|
-|Android 2.3.1|
-|Android 2.3	|9	|GINGERBREAD|
-|Android 2.2.x	|8	|FROYO	|平台亮点|
-|Android 2.1.x	|7	|ECLAIR_MR1	|平台亮点|
-|Android 2.0.1	|6	|ECLAIR_0_1|
-|Android 2.0	|5|	ECLAIR|
-|Android 1.6	|4|	DONUT	|平台亮点|
-|Android 1.5	|3	|CUPCAKE|	平台亮点|
-|Android 1.1	|2	|BASE_1_1	|
-|Android 1.0	|1	|BASE	|
+！[android_version](https://github.com/Ceneses/Ceneses.github.io/blob/master/img/2017-08-13_version.png)
 # 链接
 + [uses-sdk](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#uses)
 + [Android version history](https://en.wikipedia.org/wiki/Android_version_history)
