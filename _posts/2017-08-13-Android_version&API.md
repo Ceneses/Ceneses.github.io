@@ -65,3 +65,6 @@ tags:
 |Android 1.5	|3	|CUPCAKE|	平台亮点|
 |Android 1.1	|2	|BASE_1_1	|
 |Android 1.0	|1	|BASE	|
+# 链接
++ [<uses-sdk>](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#uses)
++ [Android version history](https://en.wikipedia.org/wiki/Android_version_history)
