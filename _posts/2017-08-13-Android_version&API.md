@@ -61,7 +61,7 @@ tags:
 |Android 2.1.x	|7	|ECLAIR_MR1	|平台亮点|
 |Android 2.0.1	|6	|ECLAIR_0_1|
 |Android 2.0	|5|	ECLAIR|
-|Android 1.6	v|4|	DONUT	|平台亮点|
+|Android 1.6	|4|	DONUT	|平台亮点|
 |Android 1.5	|3	|CUPCAKE|	平台亮点|
 |Android 1.1	|2	|BASE_1_1	|
 |Android 1.0	|1	|BASE	|
