@@ -34,7 +34,7 @@ tags:
 + 一组 Intent
 + 一组应用可请求的权限，以及系统中包括的权限强制执行。
 + 每个后续版本的 Android 平台均可包括对其提供的 Android 应用框架 API 的更新。
-> 下表列出了各 Android 平台版本支持的 API 级别。
++下表列出了各 Android 平台版本支持的 API 级别。
 ![android_version](https://github.com/Ceneses/Ceneses.github.io/blob/master/img/2017-08-13_version.png)
 # 链接
 + [uses-sdk](https://developer.android.com/guide/topics/manifest/uses-sdk-element.html#uses)
