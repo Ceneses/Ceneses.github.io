@@ -7,8 +7,8 @@ author:     HCY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Android
-    - API
+    - Android
+    - API
 ---
 # Android_version
 > * Alpha|Beta版本
