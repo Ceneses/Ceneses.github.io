@@ -7,7 +7,7 @@ author:     HCY|恒成立
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - IntelliJ_IDEA
+    - IntelliJIDEA
     - 快捷键
 ---
 # 快捷键
