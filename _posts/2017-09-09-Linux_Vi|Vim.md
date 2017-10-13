@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      LINUX的Vi
-subtitle:   Linux的Vim使用
-date:       2017-09-09
-author:     HCY
+layout: post
+title: LINUX的Vi
+subtitle:Linux的Vim使用
+date:   2017-09-09
+author: HCY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
