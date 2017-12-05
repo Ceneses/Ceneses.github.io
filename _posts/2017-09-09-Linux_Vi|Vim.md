@@ -1,27 +1,31 @@
 ---
 layout: post
-title: LINUX的Vi
-subtitle:Linux的Vim使用
-date:   2017-09-09
-author: HCY
+title:      LINUX的Vi
+subtitle:   Linux的Vim使用
+date:       2017-09-09
+author:     HCY|恒成立
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-     Linux
-     vim
+    - Linux
+    - vim
 ---
+
 # Vim键盘
 ![vim](https://github.com/Ceneses/Ceneses.github.io/blob/master/img/2017-09-09-1.gif)
 # Vim的三种模式
 * 命令模式(Command mode)
 * 插入模式(Insert mode)
 * 底线命令模式(Last line mode)
+
 ```
 i切换到插入模式，以输入字符。
 x删除当前光标所在处的字符。
 :切换到底线命令模式，以在最底一行输入命令。
 ```
+
 # 输入模式
+
 ```
 字符按键以及Shift组合，输入字符
 ENTER，回车键，换行
@@ -37,6 +41,7 @@ ESC，退出输入模式，切换到命令模式
 * 在命令模式下按下:（英文冒号）就进入了底线命令模式。
 * 底线命令模式可以输入单个或多个字符的命令，可用的命令非常多。
 ![1](https://github.com/Ceneses/Ceneses.github.io/blob/master/img/2017-09-09-2.jpg)
+
 ```
  q 退出程序
  w 保存文件
