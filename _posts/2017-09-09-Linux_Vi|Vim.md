@@ -3,7 +3,7 @@ layout: post
 title:      LINUX的Vi
 subtitle:   Linux的Vim使用
 date:       2017-09-09
-author:     HCY|恒成立
+author:     HCY|恒成立
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
