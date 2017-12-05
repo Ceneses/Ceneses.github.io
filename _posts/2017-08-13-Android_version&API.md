@@ -3,13 +3,14 @@ layout:     post
 title:      Android version & API
 subtitle:   Android version发展史和API版本和android版本之间的关系
 date:       2017-08-13
-author:     HCY
+author:     HCY|恒成立
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - Android
     - API
 ---
+
 # Android_version
 > * Alpha|Beta版本
 > * Android操作系统有两个预发布的内部版本，它们分别是原子小金刚（Astro）和机器人班亭（Bender，电视动画《Futurama》角色）
