@@ -1,16 +1,18 @@
 ---
-layout:     post
-title:      IntelliJ_IDEA的技巧
-subtitle:   快捷键
-date:       2017-09-07
-author:     HCY|恒成立
-header-img: img/post-bg-ios9-web.jpg
+layout:    post
+title:     IntelliJ_IDEA的技巧
+subtitle:  快捷键
+date:      2017-09-07
+author:    HCY|恒成立
+header-img:img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - IntelliJIDEA
     - 快捷键
 ---
+
 # 快捷键
+
 ```
 Ctrl+ Shift + V 来进行访问历史粘贴板
 Ctrl+ Shift + A 搜查各种Action
