@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      Android version & API
-subtitle:   Android version发展史和API版本和android版本之间的关系
+subtitle:   Android version发展史和API版本和android版本之间的关系
 date:       2017-08-13
-author:     HCY|恒成立
+author:     HCY|恒成立
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
