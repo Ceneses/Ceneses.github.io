@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      Thoughts about learning English from the perspective of an engineering student
+subtitle:   Thoughts about learning English from the perspective of an engineering student
+date:       2018-02-13
+author:     HCY
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - English
+---
 #Introduction
 I appreciate the opportunity of expressing my thoughts about learning English from the perspective of engineering student.
 #Importance
