@@ -6,7 +6,7 @@ header-img: "img/home-bg-o.jpg"
 ---
 
 <!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+<select class="sel-lang" onchange="onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
 </select>
@@ -15,38 +15,45 @@ header-img: "img/home-bg-o.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒，<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote>
+        <p>冰冻三尺 非一日之寒，<br>
+            积土成山 非斯须之作</p>
+    </blockquote>
 
-    <p>Hey，我是<strong>恒成立(HCY)</strong>，非科班，爱好计算机。</p>
+    <p>有志者,事竟成。破釜沉舟,百二秦关终属楚</p>
 
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/ceneses">👉GitHub·HCY</a> 与 简书主页<a href="http://www.jianshu.com/users/2648ecf2283e/">👉HCY</a>。</p>
-    
+    <p>真正能给自己撑腰的，是丰富的知识储备，足够的经济基础，持续的情绪稳定，可控的生活节奏，和那个打不败的自己。</p>
+
     <h5>Talks</h5>
 
     <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://ceneses.github.io">HCY</a></li>    </ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+        <li><a href="https://ceneses.github.io">HCY</a></li>
+    </ul>
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
+    <blockquote>
+        <p>Yet another iOS Developer. <br>
+            Yet another Life-long Student.</p>
+    </blockquote>
 
-    <p>Hi, I am <strong>Han Cheney(HCY)</strong>，you can call me <strong>HCY</strong>. I'm an android Developer.I now studying in GuangZhou Colleage.</p>
+    <p>Hi, I am <strong>Han Cheney(HCY)</strong>，you can call me <strong>HCY</strong>. I'm an android Developer.I now
+        studying in GuangZhou Colleage.</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/Ceneses">Github·HCY</a>.</p>
-    
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub 👉 <a
+            href="http://github.com/Ceneses">Github·HCY</a>.</p>
+
     <h5>Talks</h5>
 
     <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://ceneses.github.io">HCY</a></li>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+        <li><a href="https://ceneses.github.io">HCY</a></li>
     </ul>
 </div>
 
@@ -61,15 +68,15 @@ header-img: "img/home-bg-o.jpg"
     window.addEventListener('hashchange', _render);
 
     // handle render
-    function _render(){
+    function _render() {
         var _hash = window.location.hash;
         // en
-        if(_hash == "#en"){
+        if (_hash == "#en") {
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
-        // zh by default
-        }else{
+            // zh by default
+        } else {
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
             $zh.style.display = "block";
@@ -78,10 +85,10 @@ header-img: "img/home-bg-o.jpg"
     }
 
     // handle select change
-    function onLanChange(index){
-        if(index == 0){
+    function onLanChange(index) {
+        if (index == 0) {
             window.location.hash = "#zh"
-        }else{
+        } else {
             window.location.hash = "#en"
         }
     }
@@ -96,16 +103,13 @@ header-img: "img/home-bg-o.jpg"
 <!-- 多说评论框 start -->
 <div class="comment">
     <!-- This id is used for indexing my loss comments forcedly -->
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "cheney" %}
-        data-thread-id="0ee040117ec56f17aa7e2523d1eae19b"
-    {% else %}
-    <!-- U can just use this key generated to index comments at page about -->
+    <div class="ds-thread" {% if site.duoshuo_username == "cheney" %} data-thread-id="0ee040117ec56f17aa7e2523d1eae19b"
+        {% else %} <!-- U can just use this key generated to index comments at page about -->
         data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
+        {% endif %}
 
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
+        data-title="{{page.title}}"
+        data-url="{{site.url}}/about/"></div>
 </div>
 <!-- 多说评论框 end -->
 
@@ -115,14 +119,17 @@ header-img: "img/home-bg-o.jpg"
     var _user = '{{site.duoshuo_username}}';
 
     // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
+    var duoshuoQuery = {
+        short_name: _user
+    };
+    (function () {
         var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
+        ds.type = 'text/javascript';
+        ds.async = true;
         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
         ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
+        (document.getElementsByTagName('head')[0] ||
+            document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
 </script>
 <!-- 多说公共JS代码 end -->
@@ -145,8 +152,10 @@ header-img: "img/home-bg-o.jpg"
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
     var disqus_url = "{{site.url}}{{page.url}}";
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
